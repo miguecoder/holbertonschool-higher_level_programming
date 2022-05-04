@@ -2,7 +2,8 @@
 def uppercase(str):
     for i in str:
         ac = ord(i)
-        if 97 <= ac <= 122:
+        if ac >= 97 and ac <= 122:
             ac = ac - 32
-        print('{:c}'.format(ac), end = "")
+        print('{:c}'.format(ac), end#!/usr/bin/python3
+def print_last_digit(number): = "")
     print()
