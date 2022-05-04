@@ -4,6 +4,5 @@ def uppercase(str):
         ac = ord(i)
         if ac >= 97 and ac <= 122:
             ac = ac - 32
-        print('{:c}'.format(ac), end#!/usr/bin/python3
-def print_last_digit(number): = "")
+        print('{:c}'.format(ac), end = "")
     print()
