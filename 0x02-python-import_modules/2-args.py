@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print(f"{argv_len}: {argv[1]}")
     else:
         print(f"{argv_len} arguments:")
-    for i in range(1, argv_len + 1, 1):
-        print(f"{i}: {argv[i]}")
+        for i in range(1, argv_len + 1, 1):
+            print(f"{i}: {argv[i]}")
