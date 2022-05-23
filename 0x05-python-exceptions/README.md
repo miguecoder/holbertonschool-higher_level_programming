@@ -1,58 +1,5 @@
-<div class="project row">
-  <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
-
-      <h1 class="gap">0x05. Python - Exceptions</h1>
-
-  <div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[]}" data-react-cache-id="tags/Tags-0"></div>
-
-  <ul class="list-group metadata" id="project-metadata">
-
-    <li class="list-group-item">
-      <i aria-hidden="true" class="fa fa-user  fa-fw"></i>
-      By Guillaume
-    </li>
-
-    <li class="list-group-item">
-      <i aria-hidden="true" class="fa fa-cogs  fa-fw"></i>
-      Weight: 1
-    </li>
-
-
-
-
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-calendar  fa-fw"></i>
-            Ongoing project - started <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-05-23T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>, must end by <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-05-24T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
-          - you're done with <span id="student_task_done_percentage">0</span>% of tasks.
-      </li>
-
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-check  fa-fw"></i>
-        Checker was released at <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:true,&quot;value&quot;:&quot;2022-05-23T12:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
-      </li>
-
-
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-check-square  fa-fw"></i>
-        An auto review will be launched at the deadline
-      </li>
-
-</ul>
-
-
-
-
-    <div id="project_id" style="display: none" data-project-id="245"></div>
-
-
-
-      
-
-      
-
-      <div class="panel panel-default" id="project-description">
-  <div class="panel-body">
-    <h2>Resources</h2>
+<h1 class="gap">0x05. Python - Exceptions</h1>
+<h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
 
@@ -102,31 +49,15 @@
       
 
         
-          <h2 class="gap">Tasks</h2>
 
-    <div data-role="task1154" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-1154">
-  <span id="user_id" data-id="4520"></span>
+<h3 class="panel-title">
+	0. Safe list printing
+</h3>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      0. Safe list printing
-    </h3>
+<!-- Progress vs Score -->
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
-
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
-    <p>Write a function that prints <code>x</code> elements of a list.</p>
+<!-- Task Body -->
+<p>Write a function that prints <code>x</code> elements of a list.</p>
 
 <ul>
 <li>Prototype: <code>def safe_print_list(my_list=[], x=0):</code></li>
@@ -166,24 +97,24 @@ guillaume@ubuntu:~/0x05$
   </div>
 
   <div class="list-group">
-    <!-- Task URLs -->
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>0-safe_print_list.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+	<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+	<li>Directory: <code>0x05-python-exceptions</code></li>
+	<li>File: <code>0-safe_print_list.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+	<div class="align-items-center d-flex justify-content-between">
         
 <div>
     <button class="student_task_done btn btn-default btn-sm no" data-task-id="1154">
@@ -193,160 +124,160 @@ guillaume@ubuntu:~/0x05$
       Done<span class="no pending">?</span><span class="yes">!</span>
     </button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1154" data-project-id="245" data-toggle="modal" data-target="#task-1154-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1154-users-done-modal" data-task-id="1154" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "0. Safe list printing"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1154" data-project-id="245" data-toggle="modal" data-target="#task-1154-users-done-modal">
+	Help
+</button>
+<div class="modal fade users-done-modal" id="task-1154-users-done-modal" data-task-id="1154" data-project-id="245">
+<div class="modal-dialog">
+	<div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<h4 class="modal-title">Students who are done with "0. Safe list printing"</h4>
+	</div>
+	<div class="modal-body">
+		<div class="list-group">
+		</div>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+	</div>
+	</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1154" data-toggle="modal" data-target="#task-test-correction-1154-correction-modal" id="task-num-0-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1154-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "0. Safe list printing"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+	<button class="btn btn-default btn-sm" data-task-id="1154" data-toggle="modal" data-target="#task-test-correction-1154-correction-modal" id="task-num-0-check-code-btn">
+		Check your code
+	</button>
+	<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1154-correction-modal">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Correction of "0. Safe list printing"</h4>
+		</div>
+		<div class="modal-body">
+			<div class="actions">
+				<center>
+					<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1154">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+					<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1154">Start a new test</button>
+					<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+					<div class="spinner" style="display: none;">
+						<div class="bounce1"></div>
+						<div class="bounce2"></div>
+						<div class="bounce3"></div>
+					</div>
+					<div class="error"></div>
+					<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+				</center>
+			</div>
+			<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1154">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1154">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+			<div class="help">
+<button data-task-id="1154">
+	<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1154">
+	<div class="check-line">
+		<div class="check-inline requirement success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Requirement success
+		</div>
+		<div class="check-inline requirement fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Requirement fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline code success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Code success
+		</div>
+		<div class="check-inline code fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Code fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline efficiency success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Efficiency success
+		</div>
+		<div class="check-inline efficiency fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Efficiency fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline answer success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Text answer success
+		</div>
+		<div class="check-inline answer fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Text answer fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline requirement fail offline">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Skipped - Previous check failed
+		</div>
+	</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
+
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
+
+</div>
+
+
+<div class="fs-4">
+</div>
+</div>
 
 
   </div>
 </div>
 
-    </div>
-    <div data-role="task1155" data-position="2" id="task-num-1">
-      <div class="panel panel-default task-card " id="task-1155">
-  <span id="user_id" data-id="4520"></span>
+</div>
+<div data-role="task1155" data-position="2" id="task-num-1">
+<div class="panel panel-default task-card " id="task-1155">
+<span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      1. Safe printing of an integers list
-    </h3>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+	1. Safe printing of an integers list
+</h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
+<div>
+	<span class="label label-info">
+		mandatory
+	</span>
+</div>
+</div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
+<!-- Progress vs Score -->
 
-    <!-- Task Body -->
-    <p>Write a function that prints an integer with <code>&quot;{:d}&quot;.format()</code>.</p>
+<!-- Task Body -->
+<p>Write a function that prints an integer with <code>&quot;{:d}&quot;.format()</code>.</p>
 
 <ul>
 <li>Prototype: <code>def safe_print_integer(value):</code></li>
@@ -367,17 +298,17 @@ safe_print_integer = __import__(&#39;1-safe_print_integer&#39;).safe_print_integ
 value = 89
 has_been_print = safe_print_integer(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 value = -89
 has_been_print = safe_print_integer(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 value = &quot;School&quot;
 has_been_print = safe_print_integer(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 guillaume@ubuntu:~/0x05$ ./1-main.py
 89
@@ -386,190 +317,190 @@ School is not an integer
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>1-safe_print_integer.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+	<div class="list-group-item">
+	<p><strong>Repo:</strong></p>
+	<ul>
+		<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+		<li>Directory: <code>0x05-python-exceptions</code></li>
+		<li>File: <code>1-safe_print_integer.py</code></li>
+	</ul>
+	</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+	<div class="align-items-center d-flex justify-content-between">
+	
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1155">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1155">
+	<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+	<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+	<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+	Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1155" data-project-id="245" data-toggle="modal" data-target="#task-1155-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1155-users-done-modal" data-task-id="1155" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "1. Safe printing of an integers list"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1155" data-project-id="245" data-toggle="modal" data-target="#task-1155-users-done-modal">
+	Help
+</button>
+<div class="modal fade users-done-modal" id="task-1155-users-done-modal" data-task-id="1155" data-project-id="245">
+<div class="modal-dialog">
+	<div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<h4 class="modal-title">Students who are done with "1. Safe printing of an integers list"</h4>
+	</div>
+	<div class="modal-body">
+		<div class="list-group">
+		</div>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+	</div>
+	</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1155" data-toggle="modal" data-target="#task-test-correction-1155-correction-modal" id="task-num-1-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1155-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "1. Safe printing of an integers list"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+	<button class="btn btn-default btn-sm" data-task-id="1155" data-toggle="modal" data-target="#task-test-correction-1155-correction-modal" id="task-num-1-check-code-btn">
+		Check your code
+	</button>
+	<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1155-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "1. Safe printing of an integers list"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+<center>
+<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1155">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1155">Start a new test</button>
+<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+<div class="spinner" style="display: none;">
+	<div class="bounce1"></div>
+	<div class="bounce2"></div>
+	<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1155">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1155">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1155">
+	<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1155">
+	<div class="check-line">
+		<div class="check-inline requirement success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Requirement success
+		</div>
+		<div class="check-inline requirement fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Requirement fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline code success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Code success
+		</div>
+		<div class="check-inline code fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Code fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline efficiency success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Efficiency success
+		</div>
+		<div class="check-inline efficiency fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Efficiency fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline answer success">
+				<i aria-hidden="true" class="fa fa-check-circle "></i>
+			Text answer success
+		</div>
+		<div class="check-inline answer fail">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Text answer fail
+		</div>
+	</div>
+	<div class="check-line">
+		<div class="check-inline requirement fail offline">
+				<i aria-hidden="true" class="fa fa-times-circle "></i>
+			Skipped - Previous check failed
+		</div>
+	</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1156" data-position="3" id="task-num-2">
-      <div class="panel panel-default task-card " id="task-1156">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      2. Print and count integers
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1156" data-position="3" id="task-num-2">
+<div class="panel panel-default task-card " id="task-1156">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that prints the first <code>x</code> elements of a list and only integers.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+2. Print and count integers
+</h3>
+
+<div>
+<span class="label label-info">
+mandatory
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that prints the first <code>x</code> elements of a list and only integers.</p>
 
 <ul>
 <li>Prototype: <code>def safe_print_list_integers(my_list=[], x=0):</code></li>
@@ -587,7 +518,7 @@ guillaume@ubuntu:~/0x05$
 <pre><code>guillaume@ubuntu:~/0x05$ cat 2-main.py
 #!/usr/bin/python3
 safe_print_list_integers = \
-    __import__(&#39;2-safe_print_list_integers&#39;).safe_print_list_integers
+__import__(&#39;2-safe_print_list_integers&#39;).safe_print_list_integers
 
 my_list = [1, 2, 3, 4, 5]
 
@@ -607,198 +538,198 @@ nb_print: 2
 12345
 nb_print: 5
 12345Traceback (most recent call last):
-  File &quot;./2-main.py&quot;, line 14, in &lt;module&gt;
-    nb_print = safe_print_list_integers(my_list, len(my_list) + 2)
-  File &quot;/0x05/2-safe_print_list_integers.py&quot;, line 7, in safe_print_list_integers
-    print(&quot;{:d}&quot;.format(my_list[i]), end=&quot;&quot;)
+File &quot;./2-main.py&quot;, line 14, in &lt;module&gt;
+nb_print = safe_print_list_integers(my_list, len(my_list) + 2)
+File &quot;/0x05/2-safe_print_list_integers.py&quot;, line 7, in safe_print_list_integers
+print(&quot;{:d}&quot;.format(my_list[i]), end=&quot;&quot;)
 IndexError: list index out of range
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>2-safe_print_list_integers.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>2-safe_print_list_integers.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1156">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1156">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1156" data-project-id="245" data-toggle="modal" data-target="#task-1156-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1156-users-done-modal" data-task-id="1156" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "2. Print and count integers"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1156" data-project-id="245" data-toggle="modal" data-target="#task-1156-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1156-users-done-modal" data-task-id="1156" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "2. Print and count integers"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1156" data-toggle="modal" data-target="#task-test-correction-1156-correction-modal" id="task-num-2-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1156-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "2. Print and count integers"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1156" data-toggle="modal" data-target="#task-test-correction-1156-correction-modal" id="task-num-2-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1156-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "2. Print and count integers"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1156">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1156">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1156">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1156">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1156">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1156">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1157" data-position="4" id="task-num-3">
-      <div class="panel panel-default task-card " id="task-1157">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      3. Integers division with debug
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1157" data-position="4" id="task-num-3">
+<div class="panel panel-default task-card " id="task-1157">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that divides 2 integers and prints the result.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+3. Integers division with debug
+</h3>
+
+<div>
+<span class="label label-info">
+mandatory
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that divides 2 integers and prints the result.</p>
 
 <ul>
 <li>Prototype: <code>def safe_print_division(a, b):</code></li>
@@ -832,190 +763,190 @@ Inside result: None
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>3-safe_print_division.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>3-safe_print_division.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1157">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1157">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1157" data-project-id="245" data-toggle="modal" data-target="#task-1157-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1157-users-done-modal" data-task-id="1157" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "3. Integers division with debug"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1157" data-project-id="245" data-toggle="modal" data-target="#task-1157-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1157-users-done-modal" data-task-id="1157" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "3. Integers division with debug"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1157" data-toggle="modal" data-target="#task-test-correction-1157-correction-modal" id="task-num-3-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1157-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "3. Integers division with debug"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1157" data-toggle="modal" data-target="#task-test-correction-1157-correction-modal" id="task-num-3-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1157-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "3. Integers division with debug"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1157">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1157">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1157">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1157">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1157">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1157">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1158" data-position="5" id="task-num-4">
-      <div class="panel panel-default task-card " id="task-1158">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      4. Divide a list
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1158" data-position="5" id="task-num-4">
+<div class="panel panel-default task-card " id="task-1158">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that divides element by element 2 lists.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+4. Divide a list
+</h3>
+
+<div>
+<span class="label label-info">
+mandatory
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that divides element by element 2 lists.</p>
 
 <ul>
 <li>Prototype: <code>def list_division(my_list_1, my_list_2, list_length):</code></li>
@@ -1068,190 +999,190 @@ out of range
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>4-list_division.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>4-list_division.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1158">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1158">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1158" data-project-id="245" data-toggle="modal" data-target="#task-1158-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1158-users-done-modal" data-task-id="1158" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "4. Divide a list"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1158" data-project-id="245" data-toggle="modal" data-target="#task-1158-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1158-users-done-modal" data-task-id="1158" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "4. Divide a list"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1158" data-toggle="modal" data-target="#task-test-correction-1158-correction-modal" id="task-num-4-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1158-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "4. Divide a list"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1158" data-toggle="modal" data-target="#task-test-correction-1158-correction-modal" id="task-num-4-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1158-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "4. Divide a list"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1158">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1158">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1158">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1158">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1158">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1158">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1159" data-position="6" id="task-num-5">
-      <div class="panel panel-default task-card " id="task-1159">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      5. Raise exception
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1159" data-position="6" id="task-num-5">
+<div class="panel panel-default task-card " id="task-1159">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that raises a type exception.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+5. Raise exception
+</h3>
+
+<div>
+<span class="label label-info">
+mandatory
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that raises a type exception.</p>
 
 <ul>
 <li>Prototype: <code>def raise_exception():</code></li>
@@ -1263,199 +1194,199 @@ guillaume@ubuntu:~/0x05$
 raise_exception = __import__(&#39;5-raise_exception&#39;).raise_exception
 
 try:
-    raise_exception()
+raise_exception()
 except TypeError as te:
-    print(&quot;Exception raised&quot;)
+print(&quot;Exception raised&quot;)
 
 guillaume@ubuntu:~/0x05$ ./5-main.py
 Exception raised
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>5-raise_exception.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>5-raise_exception.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1159">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1159">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1159" data-project-id="245" data-toggle="modal" data-target="#task-1159-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1159-users-done-modal" data-task-id="1159" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "5. Raise exception"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1159" data-project-id="245" data-toggle="modal" data-target="#task-1159-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1159-users-done-modal" data-task-id="1159" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "5. Raise exception"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1159" data-toggle="modal" data-target="#task-test-correction-1159-correction-modal" id="task-num-5-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1159-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "5. Raise exception"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1159" data-toggle="modal" data-target="#task-test-correction-1159-correction-modal" id="task-num-5-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1159-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "5. Raise exception"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1159">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1159">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1159">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1159">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1159">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1159">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1160" data-position="7" id="task-num-6">
-      <div class="panel panel-default task-card " id="task-1160">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      6. Raise a message
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1160" data-position="7" id="task-num-6">
+<div class="panel panel-default task-card " id="task-1160">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that raises a name exception with a message.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+6. Raise a message
+</h3>
+
+<div>
+<span class="label label-info">
+mandatory
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that raises a name exception with a message.</p>
 
 <ul>
 <li>Prototype: <code>def raise_exception_msg(message=&quot;&quot;):</code></li>
@@ -1467,199 +1398,199 @@ guillaume@ubuntu:~/0x05$
 raise_exception_msg = __import__(&#39;6-raise_exception_msg&#39;).raise_exception_msg
 
 try:
-    raise_exception_msg(&quot;C is fun&quot;)
+raise_exception_msg(&quot;C is fun&quot;)
 except NameError as ne:
-    print(ne)
+print(ne)
 
 guillaume@ubuntu:~/0x05$ ./6-main.py
 C is fun
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>6-raise_exception_msg.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>6-raise_exception_msg.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1160">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1160">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1160" data-project-id="245" data-toggle="modal" data-target="#task-1160-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1160-users-done-modal" data-task-id="1160" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "6. Raise a message"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1160" data-project-id="245" data-toggle="modal" data-target="#task-1160-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1160-users-done-modal" data-task-id="1160" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "6. Raise a message"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1160" data-toggle="modal" data-target="#task-test-correction-1160-correction-modal" id="task-num-6-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1160-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "6. Raise a message"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1160" data-toggle="modal" data-target="#task-test-correction-1160-correction-modal" id="task-num-6-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1160-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "6. Raise a message"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1160">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1160">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1160">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1160">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1160">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1160">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1161" data-position="100" id="task-num-7">
-      <div class="panel panel-default task-card " id="task-1161">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      7. Safe integer print with error message
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          #advanced
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1161" data-position="100" id="task-num-7">
+<div class="panel panel-default task-card " id="task-1161">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that prints an integer.</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+7. Safe integer print with error message
+</h3>
+
+<div>
+<span class="label label-info">
+#advanced
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that prints an integer.</p>
 
 <ul>
 <li>Prototype: <code>def safe_print_integer_err(value):</code></li>
@@ -1675,22 +1606,22 @@ guillaume@ubuntu:~/0x05$
 <pre><code>guillaume@ubuntu:~/0x05$ cat 100-main.py
 #!/usr/bin/python3
 safe_print_integer_err = \
-    __import__(&#39;100-safe_print_integer_err&#39;).safe_print_integer_err
+__import__(&#39;100-safe_print_integer_err&#39;).safe_print_integer_err
 
 value = 89
 has_been_print = safe_print_integer_err(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 value = -89
 has_been_print = safe_print_integer_err(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 value = &quot;School&quot;
 has_been_print = safe_print_integer_err(value)
 if not has_been_print:
-    print(&quot;{} is not an integer&quot;.format(value))
+print(&quot;{} is not an integer&quot;.format(value))
 
 guillaume@ubuntu:~/0x05$ ./100-main.py
 89
@@ -1704,190 +1635,190 @@ School is not an integer
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>100-safe_print_integer_err.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>100-safe_print_integer_err.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1161">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1161">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1161" data-project-id="245" data-toggle="modal" data-target="#task-1161-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1161-users-done-modal" data-task-id="1161" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "7. Safe integer print with error message"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1161" data-project-id="245" data-toggle="modal" data-target="#task-1161-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1161-users-done-modal" data-task-id="1161" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "7. Safe integer print with error message"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1161" data-toggle="modal" data-target="#task-test-correction-1161-correction-modal" id="task-num-7-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1161-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "7. Safe integer print with error message"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1161" data-toggle="modal" data-target="#task-test-correction-1161-correction-modal" id="task-num-7-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1161-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "7. Safe integer print with error message"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1161">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1161">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1161">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1161">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1161">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1161">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1162" data-position="101" id="task-num-8">
-      <div class="panel panel-default task-card " id="task-1162">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      8. Safe function
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          #advanced
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1162" data-position="101" id="task-num-8">
+<div class="panel panel-default task-card " id="task-1162">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write a function that executes a function safely.  </p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+8. Safe function
+</h3>
+
+<div>
+<span class="label label-info">
+#advanced
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write a function that executes a function safely.  </p>
 
 <ul>
 <li>Prototype: <code>def safe_function(fct, *args):</code></li>
@@ -1903,7 +1834,7 @@ safe_function = __import__(&#39;101-safe_function&#39;).safe_function
 
 
 def my_div(a, b):
-    return a / b
+return a / b
 
 result = safe_function(my_div, 10, 2)
 print(&quot;result of my_div: {}&quot;.format(result))
@@ -1913,11 +1844,11 @@ print(&quot;result of my_div: {}&quot;.format(result))
 
 
 def print_list(my_list, len):
-    i = 0
-    while i &lt; len:
-        print(my_list[i])
-        i += 1
-    return len
+i = 0
+while i &lt; len:
+print(my_list[i])
+i += 1
+return len
 
 result = safe_function(print_list, [1, 2, 3, 4], 10)
 print(&quot;result of print_list: {}&quot;.format(result))
@@ -1943,435 +1874,435 @@ result of print_list: None
 guillaume@ubuntu:~/0x05$ 
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>101-safe_function.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>101-safe_function.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1162">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1162">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1162" data-project-id="245" data-toggle="modal" data-target="#task-1162-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1162-users-done-modal" data-task-id="1162" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "8. Safe function"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1162" data-project-id="245" data-toggle="modal" data-target="#task-1162-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1162-users-done-modal" data-task-id="1162" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "8. Safe function"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1162" data-toggle="modal" data-target="#task-test-correction-1162-correction-modal" id="task-num-8-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1162-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "8. Safe function"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1162" data-toggle="modal" data-target="#task-test-correction-1162-correction-modal" id="task-num-8-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1162-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "8. Safe function"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1162">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1162">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1162">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1162">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1162">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1162">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1163" data-position="102" id="task-num-9">
-      <div class="panel panel-default task-card " id="task-1163">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      9. ByteCode -&gt; Python #4
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          #advanced
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1163" data-position="102" id="task-num-9">
+<div class="panel panel-default task-card " id="task-1163">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+9. ByteCode -&gt; Python #4
+</h3>
+
+<div>
+<span class="label label-info">
+#advanced
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
 
 <pre><code>  3           0 LOAD_CONST               1 (0)
-              3 STORE_FAST               2 (result)
+3 STORE_FAST               2 (result)
 
-  4           6 SETUP_LOOP              94 (to 103)
-              9 LOAD_GLOBAL              0 (range)
-             12 LOAD_CONST               2 (1)
-             15 LOAD_CONST               3 (3)
-             18 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-             21 GET_ITER
-        &gt;&gt;   22 FOR_ITER                77 (to 102)
-             25 STORE_FAST               3 (i)
+4           6 SETUP_LOOP              94 (to 103)
+9 LOAD_GLOBAL              0 (range)
+12 LOAD_CONST               2 (1)
+15 LOAD_CONST               3 (3)
+18 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
+21 GET_ITER
+&gt;&gt;   22 FOR_ITER                77 (to 102)
+25 STORE_FAST               3 (i)
 
-  5          28 SETUP_EXCEPT            49 (to 80)
+5          28 SETUP_EXCEPT            49 (to 80)
 
-  6          31 LOAD_FAST                3 (i)
-             34 LOAD_FAST                0 (a)
-             37 COMPARE_OP               4 (&gt;)
-             40 POP_JUMP_IF_FALSE       58
+6          31 LOAD_FAST                3 (i)
+34 LOAD_FAST                0 (a)
+37 COMPARE_OP               4 (&gt;)
+40 POP_JUMP_IF_FALSE       58
 
-  7          43 LOAD_GLOBAL              1 (Exception)
-             46 LOAD_CONST               4 (&#39;Too far&#39;)
-             49 CALL_FUNCTION            1 (1 positional, 0 keyword pair)
-             52 RAISE_VARARGS            1
-             55 JUMP_FORWARD            18 (to 76)
+7          43 LOAD_GLOBAL              1 (Exception)
+46 LOAD_CONST               4 (&#39;Too far&#39;)
+49 CALL_FUNCTION            1 (1 positional, 0 keyword pair)
+52 RAISE_VARARGS            1
+55 JUMP_FORWARD            18 (to 76)
 
-  9     &gt;&gt;   58 LOAD_FAST                2 (result)
-             61 LOAD_FAST                0 (a)
-             64 LOAD_FAST                1 (b)
-             67 BINARY_POWER
-             68 LOAD_FAST                3 (i)
-             71 BINARY_TRUE_DIVIDE
-             72 INPLACE_ADD
-             73 STORE_FAST               2 (result)
-        &gt;&gt;   76 POP_BLOCK
-             77 JUMP_ABSOLUTE           22
+9     &gt;&gt;   58 LOAD_FAST                2 (result)
+61 LOAD_FAST                0 (a)
+64 LOAD_FAST                1 (b)
+67 BINARY_POWER
+68 LOAD_FAST                3 (i)
+71 BINARY_TRUE_DIVIDE
+72 INPLACE_ADD
+73 STORE_FAST               2 (result)
+&gt;&gt;   76 POP_BLOCK
+77 JUMP_ABSOLUTE           22
 
- 10     &gt;&gt;   80 POP_TOP
-             81 POP_TOP
-             82 POP_TOP
+10     &gt;&gt;   80 POP_TOP
+81 POP_TOP
+82 POP_TOP
 
- 11          83 LOAD_FAST                1 (b)
-             86 LOAD_FAST                0 (a)
-             89 BINARY_ADD
-             90 STORE_FAST               2 (result)
+11          83 LOAD_FAST                1 (b)
+86 LOAD_FAST                0 (a)
+89 BINARY_ADD
+90 STORE_FAST               2 (result)
 
- 12          93 BREAK_LOOP
-             94 POP_EXCEPT
-             95 JUMP_ABSOLUTE           22
-             98 END_FINALLY
-             99 JUMP_ABSOLUTE           22
-        &gt;&gt;  102 POP_BLOCK
+12          93 BREAK_LOOP
+94 POP_EXCEPT
+95 JUMP_ABSOLUTE           22
+98 END_FINALLY
+99 JUMP_ABSOLUTE           22
+&gt;&gt;  102 POP_BLOCK
 
- 13     &gt;&gt;  103 LOAD_FAST                2 (result)
-            106 RETURN_VALUE
+13     &gt;&gt;  103 LOAD_FAST                2 (result)
+106 RETURN_VALUE
 </code></pre>
 
 <ul>
 <li>Tip: <a href="/rltoken/nEdVB0_yzZ7pZQpnNxbC3w" title="Python bytecode" target="_blank">Python bytecode</a></li>
 </ul>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>102-magic_calculation.py</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>102-magic_calculation.py</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1163">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1163">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1163" data-project-id="245" data-toggle="modal" data-target="#task-1163-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1163-users-done-modal" data-task-id="1163" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "9. ByteCode -&gt; Python #4"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1163" data-project-id="245" data-toggle="modal" data-target="#task-1163-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1163-users-done-modal" data-task-id="1163" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "9. ByteCode -&gt; Python #4"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
 
 
-      <button class="btn btn-default btn-sm" data-task-id="1163" data-toggle="modal" data-target="#task-test-correction-1163-correction-modal" id="task-num-9-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1163-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "9. ByteCode -&gt; Python #4"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
+<button class="btn btn-default btn-sm" data-task-id="1163" data-toggle="modal" data-target="#task-test-correction-1163-correction-modal" id="task-num-9-check-code-btn">
+Check your code
+</button>
+<div class="modal fade task_correction_modal student_modal" id="task-test-correction-1163-correction-modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Correction of "9. ByteCode -&gt; Python #4"</h4>
+</div>
+<div class="modal-body">
+<div class="actions">
+	<center>
+		<div class="alert alert-info hidden"></div>
 
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1163">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+		<button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1163">Start a new test</button>
+		<button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
 
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
+		<div class="spinner" style="display: none;">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div class="error"></div>
+		<div class="info"></div>
 
 
-                    </center>
-                </div>
-                <div class="result"></div>
+	</center>
+</div>
+<div class="result"></div>
 
-                <div class="help">
-    <button data-task-id="1163">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1163">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
+<div class="help">
+<button data-task-id="1163">
+<i aria-hidden="true" class="fa fa-info-circle "></i>
+</button>
+<div class="help-container" data-task-id="1163">
+<div class="check-line">
+<div class="check-inline requirement success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Requirement success
+</div>
+<div class="check-inline requirement fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Requirement fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline code success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Code success
+</div>
+<div class="check-inline code fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Code fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline efficiency success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Efficiency success
+</div>
+<div class="check-inline efficiency fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Efficiency fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline answer success">
+	<i aria-hidden="true" class="fa fa-check-circle "></i>
+Text answer success
+</div>
+<div class="check-inline answer fail">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Text answer fail
+</div>
+</div>
+<div class="check-line">
+<div class="check-inline requirement fail offline">
+	<i aria-hidden="true" class="fa fa-times-circle "></i>
+Skipped - Previous check failed
+</div>
+</div>
+</div>
 </div>
 
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
 </div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
 </div>
 
 
-        <div class="fs-4">
-        </div>
-      </div>
 
+<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
 
-  </div>
 </div>
 
-    </div>
-    <div data-role="task1164" data-position="103" id="task-num-10">
-      <div class="panel panel-default task-card " id="task-1164">
-  <span id="user_id" data-id="4520"></span>
 
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      10. CPython #2: PyFloatObject
-    </h3>
+<div class="fs-4">
+</div>
+</div>
 
-    <div>
-        <span class="label label-info">
-          #advanced
-        </span>
-    </div>
-  </div>
 
-  <div class="panel-body">
-    <span id="user_id" data-id="4520"></span>
+</div>
+</div>
 
-    <!-- Progress vs Score -->
+</div>
+<div data-role="task1164" data-position="103" id="task-num-10">
+<div class="panel panel-default task-card " id="task-1164">
+<span id="user_id" data-id="4520"></span>
 
-    <!-- Task Body -->
-    <p>Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.<br />
+<div class="panel-heading panel-heading-actions">
+<h3 class="panel-title">
+10. CPython #2: PyFloatObject
+</h3>
+
+<div>
+<span class="label label-info">
+#advanced
+</span>
+</div>
+</div>
+
+<div class="panel-body">
+<span id="user_id" data-id="4520"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.<br />
 <br />
 <img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/070710952984e4d126e114405cefe83af2271ce8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220523T225536Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=53d0190945080d28ff7e1ce1673986d5e83eda8e67b2900cb7a45933438f9d5e" alt="" style="" />
 <br />
@@ -2481,58 +2412,58 @@ lib.print_python_float(l);
 lib.print_python_list(f);
 julien@ubuntu:~/CPython$ ./103-tests.py 
 [.] bytes object info
-  size: 5
-  trying string: Hello
-  first 6 bytes: 48 65 6c 6c 6f 00
+size: 5
+trying string: Hello
+first 6 bytes: 48 65 6c 6c 6f 00
 [.] bytes object info
-  size: 8
-  trying string: ??
-  first 9 bytes: ff f8 00 00 00 00 00 00 00
+size: 8
+trying string: ??
+first 9 bytes: ff f8 00 00 00 00 00 00 00
 [.] bytes object info
-  size: 60
-  trying string: What does the &#39;b&#39; character do in front of a string literal?
-  first 10 bytes: 57 68 61 74 20 64 6f 65 73 20
+size: 60
+trying string: What does the &#39;b&#39; character do in front of a string literal?
+first 10 bytes: 57 68 61 74 20 64 6f 65 73 20
 [*] Python list info
 [*] Size of the Python List = 2
 [*] Allocated = 2
 Element 0: bytes
 [.] bytes object info
-  size: 5
-  trying string: Hello
-  first 6 bytes: 48 65 6c 6c 6f 00
+size: 5
+trying string: Hello
+first 6 bytes: 48 65 6c 6c 6f 00
 Element 1: bytes
 [.] bytes object info
-  size: 5
-  trying string: World
-  first 6 bytes: 57 6f 72 6c 64 00
+size: 5
+trying string: World
+first 6 bytes: 57 6f 72 6c 64 00
 [*] Python list info
 [*] Size of the Python List = 1
 [*] Allocated = 2
 Element 0: bytes
 [.] bytes object info
-  size: 5
-  trying string: Hello
-  first 6 bytes: 48 65 6c 6c 6f 00
+size: 5
+trying string: Hello
+first 6 bytes: 48 65 6c 6c 6f 00
 [*] Python list info
 [*] Size of the Python List = 8
 [*] Allocated = 8
 Element 0: bytes
 [.] bytes object info
-  size: 5
-  trying string: Hello
-  first 6 bytes: 48 65 6c 6c 6f 00
+size: 5
+trying string: Hello
+first 6 bytes: 48 65 6c 6c 6f 00
 Element 1: int
 Element 2: int
 Element 3: float
 [.] float object info
-  value: 6.0
+value: 6.0
 Element 4: tuple
 Element 5: list
 Element 6: bytes
 [.] bytes object info
-  size: 9
-  trying string: School
-  first 10 bytes: 48 6f 6c 62 65 72 74 6f 6e 00
+size: 9
+trying string: School
+first 10 bytes: 48 6f 6c 62 65 72 74 6f 6e 00
 Element 7: str
 [*] Python list info
 [*] Size of the Python List = 0
@@ -2561,94 +2492,94 @@ Element 3: int
 [*] Allocated = 1
 Element 0: str
 [.] bytes object info
-  [ERROR] Invalid Bytes Object
+[ERROR] Invalid Bytes Object
 [.] float object info
-  value: 3.14
+value: 3.14
 [-1.0, -0.1, 0.0, 1.0, 3.14, 3.14159, 3.14159265, 3.141592653589793]
 [*] Python list info
 [*] Size of the Python List = 8
 [*] Allocated = 8
 Element 0: float
 [.] float object info
-  value: -1.0
+value: -1.0
 Element 1: float
 [.] float object info
-  value: -0.1
+value: -0.1
 Element 2: float
 [.] float object info
-  value: 0.0
+value: 0.0
 Element 3: float
 [.] float object info
-  value: 1.0
+value: 1.0
 Element 4: float
 [.] float object info
-  value: 3.14
+value: 3.14
 Element 5: float
 [.] float object info
-  value: 3.14159
+value: 3.14159
 Element 6: float
 [.] float object info
-  value: 3.14159265
+value: 3.14159265
 Element 7: float
 [.] float object info
-  value: 3.141592653589793
+value: 3.141592653589793
 [.] float object info
-  [ERROR] Invalid Float Object
+[ERROR] Invalid Float Object
 [*] Python list info
-  [ERROR] Invalid List Object
+[ERROR] Invalid List Object
 julien@ubuntu:~/CPython$
 </code></pre>
 
-  </div>
+</div>
 
-  <div class="list-group">
-    <!-- Task URLs -->
+<div class="list-group">
+<!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
-            <li>Directory: <code>0x05-python-exceptions</code></li>
-            <li>File: <code>103-python.c</code></li>
-        </ul>
-      </div>
+<!-- Github information -->
+<div class="list-group-item">
+<p><strong>Repo:</strong></p>
+<ul>
+<li>GitHub repository: <code>holbertonschool-higher_level_programming</code></li>
+<li>Directory: <code>0x05-python-exceptions</code></li>
+<li>File: <code>103-python.c</code></li>
+</ul>
+</div>
 
-    <!-- Self-paced manual review -->
-  </div>
+<!-- Self-paced manual review -->
+</div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
+<!-- Panel footer - Controls -->
+<div class="panel-footer">
+<div class="align-items-center d-flex justify-content-between">
+
 <div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1164">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
+<button class="student_task_done btn btn-default btn-sm no" data-task-id="1164">
+<span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
+<span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
+<span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
+Done<span class="no pending">?</span><span class="yes">!</span>
+</button>
 
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1164" data-project-id="245" data-toggle="modal" data-target="#task-1164-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1164-users-done-modal" data-task-id="1164" data-project-id="245">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "10. CPython #2: PyFloatObject"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
+<button class="users_done_for_task btn btn-default btn-sm" data-task-id="1164" data-project-id="245" data-toggle="modal" data-target="#task-1164-users-done-modal">
+Help
+</button>
+<div class="modal fade users-done-modal" id="task-1164-users-done-modal" data-task-id="1164" data-project-id="245">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Students who are done with "10. CPython #2: PyFloatObject"</h4>
+</div>
+<div class="modal-body">
+<div class="list-group">
+</div>
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div class="error"></div>
+</div>
+</div>
+</div>
 </div>
