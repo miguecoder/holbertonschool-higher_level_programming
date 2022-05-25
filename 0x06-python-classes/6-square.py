@@ -28,6 +28,7 @@ class Square:
 
     @position.setter
     def position(self, value):
+        self.__position = value
         if type(value) is not tuple:
             self.__position = None
             raise TypeError("position must be a tuple of 2 positive integers")
@@ -40,7 +41,6 @@ class Square:
         elif value[0] < 0 or value[1] < 0:
             self.__position = None
             raise TypeError("position must be a tuple of 2 positive integers")
-        self.__position = value
 
     """area is a new Public instance method"""
     def area(self):
@@ -54,4 +54,4 @@ class Square:
         for i in range(self.__position[1]):
             print("")
         for j in range(self.__size):
-            print(f"{' ' * self.__position[0]}{'#' * self.__size}")
+            print("{}{}".format(" " * self.position[0], "#" * self.__size))
