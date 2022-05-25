@@ -2,5 +2,5 @@
 """Square is a empty class"""
 
 class Square:
-    """This class don't have methods"""
+    """This class don't have methods because is a empty class"""
     pass
