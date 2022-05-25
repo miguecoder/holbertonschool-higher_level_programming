@@ -6,8 +6,8 @@ class Square:
     """This method define a private instance attribute -> size"""
     def __init__(self, size=0, position=(0, 0)):
         """Define like Private instance attribute: size"""
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     @property
     def position(self):
