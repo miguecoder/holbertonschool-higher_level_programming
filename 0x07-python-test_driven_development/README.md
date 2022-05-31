@@ -1,5 +1,4 @@
 
-      <div class="panel panel-default" id="project-description">
   <div class="panel-body">
     <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/246/giphy-4.gif" alt="" style="" /></p>
 
