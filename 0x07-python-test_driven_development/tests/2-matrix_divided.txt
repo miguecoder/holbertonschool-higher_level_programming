@@ -1,0 +1,77 @@
+"""Test the function add_integer"""
+
+"""import function"""
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+Test div must be a number:
+>>> matrix_divided([[2, 3, 4], [3, 7, 8]], "string")
+Traceback (most recent call last):
+...
+TypeError: div must be a number
+
+>>> matrix_divided([[2, 3, 4], [3, 7, 8]], "s")
+Traceback (most recent call last):
+...
+TypeError: div must be a number
+
+Test division for 0:
+>>> matrix_divided([[2, 3, 4], [3, 7, 8]], 0)
+Traceback (most recent call last):
+...
+ZeroDivisionError: division by zero
+
+Test matrix must be a list of list of integers or floats:
+>>> matrix_divided(None, 2)
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix_divided([(2, 3, 4), [7, 8]], 2)
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix_divided("string", 2)
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test Each row of the matrix must have the same size:
+>>> matrix_divided([[2, 3, 4], [7, 8]], 2)
+Traceback (most recent call last):
+...
+TypeError: Each row of the matrix must have the same size
+
+>>> matrix_divided([[2], [7, 8]], 2)
+Traceback (most recent call last):
+...
+TypeError: Each row of the matrix must have the same size
+
+>>> matrix_divided([[2, 3, 4], [2, 3, "string"]], 2)
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+>>> matrix_divided([["string", 2], [1, 2]], 2)
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test of good result:
+>>> matrix = [[2, 6, 4], [2, 8, 8]]
+>>> matrix_divided(matrix, 2)
+[[1.0, 3.0, 2.0], [1.0, 4.0, 4.0]]
+>>> matrix
+[[2, 6, 4], [2, 8, 8]]
+
+>>> matrix = [[2, 6, 4], [2, 8, 8]]
+>>> matrix_divided(matrix, -2)
+[[-1.0, -3.0, -2.0], [-1.0, -4.0, -4.0]]
+>>> matrix
+[[2, 6, 4], [2, 8, 8]]
+
+>>> matrix = [[2, 6, 4], [2, 8, 8]]
+>>> matrix_divided(matrix, 1.5)
+[[1.33, 4.0, 2.67], [1.33, 5.33, 5.33]]
+>>> matrix
+[[2, 6, 4], [2, 8, 8]]
