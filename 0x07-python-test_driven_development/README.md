@@ -78,40 +78,17 @@
   </div>
 </div>
 
-h2 class="gap">Tasks</h2>
-
-    <div data-role="task1167" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-1167">
-  <span id="user_id" data-id="4520"></span>
+<h2 class="gap">Tasks</h2>
 
   <div class="panel-heading panel-heading-actions">
     <h3 class="panel-title">
       0. Integers addition
     </h3>
-
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
-
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1167" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
-
-    <!-- Task Body -->
-    <p>Write a function that adds 2 integers.</p>
+<p>Write a function that adds 2 integers.</p>
 
 <ul>
 <li>Prototype: <code>def add_integer(a, b=98):</code></li>
@@ -162,29 +139,11 @@ guillaume@ubuntu:~/0x07$
       1. Divide a matrix
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
-
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1169" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
-
-    <!-- Task Body -->
-    <p>Write a function that divides all elements of a matrix.</p>
+<p>Write a function that divides all elements of a matrix.</p>
 
 <ul>
 <li>Prototype: <code>def matrix_divided(matrix, div):</code></li>
@@ -226,29 +185,13 @@ guillaume@ubuntu:~/0x07$
       2. Say my name
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
+
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1170" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
-
-    <!-- Task Body -->
-    <p>Write a function that prints <code>My name is &lt;first name&gt; &lt;last name&gt;</code></p>
+<p>Write a function that prints <code>My name is &lt;first name&gt; &lt;last name&gt;</code></p>
 
 <ul>
 <li>Prototype: <code>def say_my_name(first_name, last_name=&quot;&quot;):</code></li>
@@ -287,29 +230,13 @@ guillaume@ubuntu:~/0x07$
       3. Print square
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
+
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1171" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
-
-    <!-- Task Body -->
-    <p>Write a function that prints a square with the character <code>#</code>.</p>
+<p>Write a function that prints a square with the character <code>#</code>.</p>
 
 <ul>
 <li>Prototype: <code>def print_square(size):</code></li>
@@ -379,19 +306,9 @@ guillaume@ubuntu:~/0x07$
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1172" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
+    
 
-    <!-- Task Body -->
-    <p>Write a function that prints a text with 2 new lines after each of these characters: <code>.</code>, <code>?</code> and <code>:</code></p>
+<p>Write a function that prints a text with 2 new lines after each of these characters: <code>.</code>, <code>?</code> and <code>:</code></p>
 
 <ul>
 <li>Prototype: <code>def text_indentation(text):</code></li>
@@ -451,30 +368,12 @@ guillaume@ubuntu:~/0x07$
     <h3 class="panel-title">
       5. Max integer - Unittest
     </h3>
-
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
-      <div class="task_progress_score_bar" data-task-id="1857" data-correction-id="345670">
-        <div class="task_progress_bar">
-          <div class="task_score_bar">
-          </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
-
-    <!-- Task Body -->
-    <p>Since the beginning you have been creating &ldquo;Interactive tests&rdquo;. For this exercise, you will add Unittests.</p>
+<p>Since the beginning you have been creating &ldquo;Interactive tests&rdquo;. For this exercise, you will add Unittests.</p>
 
 <p>In this task, you will write unittests for the function <code>def max_integer(list=[]):</code>.</p>
 
