@@ -79,8 +79,8 @@ class Rectangle:
         (... being 3 dots not ellipsis) when an
         instance of Rectangle is deleted
         """
-        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
@@ -96,5 +96,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        new = cls(size, size)
-        return new
+        return Rectangle(size, size)
