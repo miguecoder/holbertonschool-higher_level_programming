@@ -61,7 +61,7 @@ class Rectangle:
             return ""
         figure = ""
         for i in range(self.__height):
-            figure += "#" * self.__width
+            figure += str(self.print_symbol) * self.__width
             if i < self.__height - 1:
                 figure += "\n"
         return figure
