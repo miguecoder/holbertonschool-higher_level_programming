@@ -53,7 +53,7 @@ class Rectangle:
         returns the rectangle perimeter"""
         if self.__height == 0 or self.__width == 0:
             return 0
-        return 2 * self.__height + 2 * self.__width
+        return (2 * self.__height) + (2 * self.__width)
 
     def __str__(self):
         """Return the rectangle with the character #"""
@@ -96,8 +96,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        """
-        Class method that returns a new Rectangle
-        instance with width == height == size
-        """
         return Rectangle(size, size)
