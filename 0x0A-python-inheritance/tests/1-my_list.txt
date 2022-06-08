@@ -1,12 +1,6 @@
-The ``1-my_list`` module
-============================
-
-Using ``1-mylist``
----------------------
-
 """Test the function print_sorted"""
 
-"""import function"""
+"""import function from module"""
 >>> MyList = __import__('1-my_list').MyList
 
 """Example 1-main.py print(my_list)"""
