@@ -2,6 +2,7 @@
 """This module contain the class Base"""
 
 
+import csv
 import json
 
 
@@ -69,3 +70,50 @@ class Base:
             return list_ins
         except FileNotFoundError:
             return []
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """method that serializes in CSV"""
+        filename = cls.__name__ + ".csv"
+        from models.rectangle import Rectangle
+        from models.square import Square
+        if list_objs is not None:
+            if cls is Rectangle:
+                list_objs = [[i.id, i.width, i.height, i.x, i.y]
+                             for i in list_objs]
+            elif cls is Square:
+                list_objs = [[i.id, i.size, i.x, i.y]
+                             for i in list_objs]
+        with open(filename, "w") as file:
+            csv_file = csv.writer(file)
+            csv_file.writerows(list_objs)
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """method that deserializes in CSV"""
+        filename = cls.__name__ + ".csv"
+        from models.rectangle import Rectangle
+        from models.square import Square
+        list_csv = list()
+
+        with open(filename, "r") as f:
+            file = csv.reader(f)
+            for line in file:
+                args = [int(content) for content in line]
+                if cls is Rectangle:
+                    dictionary = {
+                        "id": args[0],
+                        "width": args[1],
+                        "height": args[2],
+                        "x": args[3],
+                        "y": args[4]
+                        }
+                elif cls is Square:
+                    dictionary = {
+                        "id": args[0],
+                        "size": args[1],
+                        "x": args[2],
+                        "y": args[3]
+                    }
+                list_csv.append(cls.create(**dictionary))
+        return list_csv
