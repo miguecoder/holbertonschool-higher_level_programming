@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Thi module contain the class Base"""
+"""This module contain the class Base"""
 
 
 import json
@@ -22,6 +22,6 @@ class Base:
     def to_json_string(list_dictionaries):
         """Static method that return teh JSON string representation of list_dictionaries"""
 
-        if not list_dictionaries:
+        if list_dictionaries is None:
             return "[]"
         return json.dumps(list_dictionaries)
