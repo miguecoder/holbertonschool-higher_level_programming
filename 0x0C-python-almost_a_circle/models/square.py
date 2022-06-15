@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Class Square that inherits of Rectangle"""
 
-
 from models.rectangle import Rectangle
 
 
@@ -10,21 +9,25 @@ class Square(Rectangle):
 
     def __init__(self, size, x=0, y=0, id=None):
         """Method class constructor"""
+
         super().__init__(size, size, x, y, id)
 
     def __str__(self):
         """Public method __str__ that returns
         [Square] (<id>) <x>/<y> - <width>/<height>"""
+
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
 
     @property
     def size(self):
         """Getter function for size"""
+
         return self.width
 
     @size.setter
     def size(self, value):
         """Setter function for size"""
+
         self.width = value
         self.height = value
 
@@ -41,7 +44,7 @@ class Square(Rectangle):
                 if i == 2:
                     self.x = args[i]
                 if i == 3:
-                    self.y= args[i]
+                    self.y = args[i]
         else:
             for k in kwargs:
                 setattr(self, k, kwargs[k])
