@@ -20,6 +20,8 @@ class Base:
 
     @staticmethod
     def to_json_string(list_dictionaries):
+        """Static method that return teh JSON string representation of list_dictionaries"""
+
         if not list_dictionaries:
             return "[]"
         return json.dumps(list_dictionaries)
