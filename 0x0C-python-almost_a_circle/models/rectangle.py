@@ -100,7 +100,7 @@ class Rectangle(Base):
         """public method def update(self, *args):
         that assigns an argument to each attribute: """
 
-        if args:
+        if len(args) > 0:
             # args = list(args)
             for i in range(len(args)):
                 if i == 0:
@@ -113,3 +113,6 @@ class Rectangle(Base):
                     self.__x = args[i]
                 if i == 4:
                     self.__y = args[i]
+        else:
+            for k in kwargs:
+                setattr(self, k, kwargs[k])
