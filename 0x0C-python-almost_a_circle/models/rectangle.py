@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """This module content the class Rectangle"""
 
+from ast import arguments
 from models.base import Base
 
 
@@ -90,6 +91,26 @@ class Rectangle(Base):
             print()
 
     def __str__(self):
+        """Public method __str__ that returns
+        [Rectangle] (<id>) <x>/<y> - <width>/<height>"""
         a = f"[Rectangle] ({self.id}) {self.__x}/{self.__y}"
         b = f" - {self.__width}/{self.__height}"
         return a + b
+
+    def update(self, *args):
+        """public method def update(self, *args):
+        that assigns an argument to each attribute: """
+
+        if args:
+            arg = list(args)
+            for i in range(len(arg)):
+                if i == 0:
+                    self.id = arg[i]
+                if i == 1:
+                    self.__width = arg[i]
+                if i == 2:
+                    self.__height = arg[i]
+                if i == 3:
+                    self.__x = arg[i]
+                if i == 4:
+                    self.__y = arg[i]
