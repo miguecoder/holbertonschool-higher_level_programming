@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """This module content the class Rectangle"""
 
-from ast import arguments
 from models.base import Base
 
 
