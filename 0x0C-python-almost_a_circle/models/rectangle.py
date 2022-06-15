@@ -96,20 +96,20 @@ class Rectangle(Base):
         b = f" - {self.__width}/{self.__height}"
         return a + b
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """public method def update(self, *args):
         that assigns an argument to each attribute: """
 
         if args:
-            arg = list(args)
-            for i in range(len(arg)):
+            # args = list(args)
+            for i in range(len(args)):
                 if i == 0:
-                    self.id = arg[i]
+                    self.id = args[i]
                 if i == 1:
-                    self.__width = arg[i]
+                    self.__width = args[i]
                 if i == 2:
-                    self.__height = arg[i]
+                    self.__height = args[i]
                 if i == 3:
-                    self.__x = arg[i]
+                    self.__x = args[i]
                 if i == 4:
-                    self.__y = arg[i]
+                    self.__y = args[i]
