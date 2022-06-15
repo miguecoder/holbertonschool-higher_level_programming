@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Class Square that inherits of Rectangle"""
 
+
 from models.rectangle import Rectangle
 
 
@@ -33,7 +34,7 @@ class Square(Rectangle):
 
     def update(self, *args, **kwargs):
         """public method def update(self, *args):
-        that assigns an argument to each attribute: """
+        that assigns an argument to each attribute"""
         if len(args) > 0:
             for i in range(len(args)):
                 if i == 0:
