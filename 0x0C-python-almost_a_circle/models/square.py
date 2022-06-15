@@ -3,6 +3,7 @@
 
 from models.rectangle import Rectangle
 
+
 class Square(Rectangle):
     """Class inherits of rectangle"""
 
@@ -13,6 +14,4 @@ class Square(Rectangle):
     def __str__(self):
         """Public method __str__ that returns
         [Square] (<id>) <x>/<y> - <width>/<height>"""
-        a = f"[Square] ({self.id}) {self.x}/{self.y}"
-        b = f" - {self.width}"
-        return a + b
+        return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
