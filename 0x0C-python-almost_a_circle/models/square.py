@@ -53,9 +53,8 @@ class Square(Rectangle):
         """Public method that return the dictionary
         representation of a square"""
         return {
-            'x': self.__x,
-            'y': self.__y,
             'id': self.id,
-            'height': self.__height,
-            'width': self.__width
+            'size': self.size,
+            'x': self.x,
+            'y': self.y,
             }
