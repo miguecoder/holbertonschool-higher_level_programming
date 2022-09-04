@@ -27,7 +27,8 @@ if __name__ == "__main__":
             return (0)
 
         cursor = DB_Conect.cursor()
-        cursor.execute("SELECT * FROM states WHERE name='{}'".format(argv[4]))
+        cursor.execute("SELECT * FROM states WHERE name LIKE \
+        BINARY '{}';".format(argv[4]))
 
         list = cursor.fetchall()
 
