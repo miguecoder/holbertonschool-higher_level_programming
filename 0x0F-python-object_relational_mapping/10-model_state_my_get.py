@@ -31,7 +31,7 @@ if __name__ == "__main__":
     Cicle that goes through query State ordered by id
     and find the match
     """
-    instance, id_found = 0, 0
+    found_inst, id_found = 0, 0
     for instance in session.query(State).order_by(State.id):
         if instance.name == argv[4]:
             found_inst += 1
