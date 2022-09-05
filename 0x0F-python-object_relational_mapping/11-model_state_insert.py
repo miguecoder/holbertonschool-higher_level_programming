@@ -30,7 +30,7 @@ if __name__ == "__main__":
     """
     Adding a new state with the State class
     """
-    new_state = State(name="Illinois")
+    new_state = State(name="Louisiana")
     session.add(new_state)
     session.commit()
     print(new_state)
