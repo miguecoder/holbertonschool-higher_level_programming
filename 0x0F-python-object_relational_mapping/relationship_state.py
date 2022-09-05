@@ -12,8 +12,8 @@ Base = declarative_base()
 
 class State(Base):
     """
-    Create attributes id, and name Columns
-    with the underlying
+    Create attributes id, name and cities
+    like Columns with the underlying
     """
     __tablename__ = 'states'
     id = Column(Integer, primary_key=True)
