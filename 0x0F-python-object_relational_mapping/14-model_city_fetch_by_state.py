@@ -23,14 +23,14 @@ if __name__ == "__main__":
     """
     Setting up and starting session
     """
-    Session = sessionmaker(engine)
+    Session = sessionmaker(bind=engine)
     session = Session()
     """
     cicle that print instance City and State
     to state name based on state_id, id and name
     """
     instance = session.query(City, State).join(State)
-    for inst_c, inst_s in inst_q.all():
+    for inst_c, inst_s in instance.all():
         print(f"{inst_s.name}: ({inst_c.id}) {inst_c.name}")
 
     session.commit()
